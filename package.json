@@ -1,0 +1,11 @@
+{
+  "name": "nerve",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "mocha": "^2.1.0",
+    "should": "^4.4.2",
+    "should-equal": "^0.2.7",
+    "should-format": "0.0.5"
+  }
+}
