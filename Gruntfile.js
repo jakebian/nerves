@@ -3,7 +3,4 @@ module.exports = function(grunt){
 		pkg: grunt.file.readJSON('package.json'),
 	});
 
-	// grunt.loadNpmTasks('grunt-contrib-nodeunit');
-
-	// grunt.registerTask('default',['nodeunit'])
 }

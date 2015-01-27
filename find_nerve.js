@@ -19,18 +19,18 @@
 
 var Path = require('./path_util');
 
-function findNerve(g,k){
+function findNerve(g,k) {
 	if (k == 0){
 		return g.nodes().map(Path.newPath);
 	}
-
+	
 	return walk(findNerve(g,k-1),g);
 }
 
-function walk(paths,g){
+function walk(paths,g) {
 	result = [];
 
-	paths.forEach(function(path){
+	paths.forEach(function (path) {
 		var end = path.end;
 		g.neighbors(end).forEach(function(next){
 			result.push(Path.extendPath(path, next));

@@ -1,0 +1,14 @@
+script(type='text/javascript')                                                   
+    | var graph = !{JSON.stringify(graph)};
+script(src="js/src/d3-force-layout.js")
+script(src="js/src/app.js")
+
+
+div(ng-app="nerves"
+    ng-controller="nervesControl")
+    d3-force-layout(ng-if = "graph"
+                    graph = "graph"
+                    width = 800
+                    height = 400
+                    init-zoom = 0.5)
+
