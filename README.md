@@ -6,6 +6,8 @@ A simple utility for computing nerves of a small category, in node.js
 Usage
 -----
 
+```javascript
+
     var Graph = require("../graph")
     var NerveFinder = require("../find_nerve")
 
@@ -20,3 +22,4 @@ Usage
 	
     // 2-nerves
     var N2 = NerveFinder.findNerve(G,2);
+```
