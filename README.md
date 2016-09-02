@@ -1,7 +1,7 @@
 nerves
 ======
 
-A simple utility for computing nerves of a small category, in node.js
+A simple utility for computing nerves of a small category, in javascript
 
 Usage
 -----
